@@ -14,3 +14,6 @@ print()
 
 g= 3==2
 print("Variable g 3==2 is ", g)
+
+j= 2!=3
+print("Variable j 2!=3 ", j)
