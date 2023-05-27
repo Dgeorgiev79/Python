@@ -3,12 +3,18 @@ word = input()
 construct_word = ""
 construct_word2 = ""
 
+#print Stright
 for x in (word):
+    #print one per row
     print(x)
+    #print all word
     construct_word = construct_word + x
 print(construct_word)
 
+#print Reverse
 for y in range(len(word) -1, -1, -1):
+    #print one per row
     print(word[y])
+    #print all word reverse
     construct_word2 = construct_word2 + word[y]
 print(construct_word2)
