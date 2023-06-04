@@ -1,0 +1,10 @@
+while True:
+    string_char = input()
+    if string_char == "End":
+        break
+    elif string_char == "SoftUni":
+        continue
+    new_string = ''
+    for alfabet in string_char:
+        new_string = new_string + alfabet * 2
+    print(new_string)
