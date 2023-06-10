@@ -1,0 +1,18 @@
+user_count = int(input())
+word = input()
+
+list_all = []
+
+for i in range(user_count):
+    user_string = input()
+    list_all.append(user_string)
+
+print(list_all)
+
+list_user = []
+
+for i in list_all:
+    if word in i:
+        list_user.append(i)
+
+print(list_user)
