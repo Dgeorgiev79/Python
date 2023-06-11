@@ -1,0 +1,10 @@
+list_input = input().split()
+
+#print(list_input)
+
+list_converted = []
+for i in list_input:
+    i = -int(i)
+    list_converted.append(i)
+
+print(list_converted)
