@@ -1,0 +1,10 @@
+actor = int(input())
+count = int(input())
+
+number = 0
+list_final = []
+for i in range(count):
+    number = number + factor
+    list_final.append(number)
+
+print(list_final)
